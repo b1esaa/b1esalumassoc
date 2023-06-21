@@ -17,7 +17,7 @@ body {
 #homepage {
     display: flex;
     flex-direction: row;
-    background-image: url('/images/bg.jpg');
+    background-image: url('bg.jpg');
     background-size: cover;
     padding: 5% 0;
 }
