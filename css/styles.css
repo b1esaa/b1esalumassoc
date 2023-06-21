@@ -40,7 +40,7 @@ body {
 }
 
 #welcome1 {
-    font-family: 'Brush Script MT'
+    font-family: 'Bradley Hand', cursive;
 }
 
 #welcome2 {
@@ -99,8 +99,9 @@ h4 {
 footer {
     text-align: center;
     color: white;
-    padding: 1%;
     background-color: #437F66;
+    padding: 1% 0 0.5%;
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) and (min-width: 320px) {
