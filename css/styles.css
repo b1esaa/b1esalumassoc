@@ -62,7 +62,7 @@ body {
     float: right;
     width: 60%;
     text-align: center;
-    padding: 12% 10%;
+    padding: 12% 15%;
     margin: 2%;
 }
 
@@ -101,11 +101,19 @@ footer {
     color: white;
     background-color: #437F66;
     width: 100%;
-    padding: 1%;
     font-size: 80%;
 }
 
+footer p {
+    padding: 1%;
+    margin: 0;
+}
+
 @media screen and (max-width: 600px) and (min-width: 320px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .navbar {
         padding: 2%;
     }
@@ -118,6 +126,7 @@ footer {
         margin-top: 10%;
         padding: 5%;
         flex-direction: column;
+        overflow: hidden;
     }
 
     #welcome {
@@ -139,6 +148,10 @@ footer {
 
     #donate {
         width: 90%;
+    }
+
+    footer {
+        margin-top: 2%;
     }
 }
 
