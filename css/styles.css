@@ -100,8 +100,8 @@ footer {
     text-align: center;
     color: white;
     background-color: #437F66;
-    padding: 1% 0 0.5%;
     width: 100%;
+    padding: 1%;
 }
 
 @media screen and (max-width: 600px) and (min-width: 320px) {
