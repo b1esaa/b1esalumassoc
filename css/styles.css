@@ -62,7 +62,7 @@ body {
     float: right;
     width: 60%;
     text-align: center;
-    padding: 12% 15%;
+    padding: 12% 8%;
     margin: 2%;
 }
 
@@ -70,7 +70,7 @@ body {
     flex: 1;
     float: left;
     text-align: center;
-    margin: 5%;
+    margin: 3%;
     padding: 3%;
     border: solid #437F66 8px;
     border-radius: 25px;
@@ -78,10 +78,10 @@ body {
 }
 
 img {
-    width: 60%;
+    width: 70%;
 }
 
-a {
+.fa1 {
     text-decoration: none;
     padding: 5%;
     font-size: 300%;
@@ -93,7 +93,7 @@ h1 {
 }
 
 h4 {
-    padding: 4%;
+    padding: 3%;
 }
 
 footer {
