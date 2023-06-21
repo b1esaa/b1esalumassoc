@@ -71,7 +71,7 @@ body {
     float: left;
     text-align: center;
     margin: 3%;
-    padding: 3%;
+    padding: 4%;
     border: solid #437F66 8px;
     border-radius: 25px;
     width: 40%;
@@ -109,7 +109,7 @@ footer p {
     margin: 0;
 }
 
-@media screen and (max-width: 600px) and (min-width: 320px) {
+@media screen and (max-width: 600px) and (min-width: 300px) {
     body {
         overflow-x: hidden;
     }
@@ -143,11 +143,14 @@ footer p {
     }
 
     #contact {
-        width: 100%;
+        width: 90%;
+        margin: 7%;
+        font-size: 80%;
     }
 
     #donate {
-        width: 90%;
+        width: 94%;
+        padding: 6%;
     }
 
     footer {
